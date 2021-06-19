@@ -157,7 +157,7 @@ export function App() {
           <Button value="Foobar" />
         </div>
 
-        {/* First way of using tw.macro *}
+        {/* First way of using tw.macro */}
         <div tw="max-w-4xl mx-auto p-5 mt-5">
           <h1 tw="text-blue-500 text-4xl">
             Hello from tw.macro. This is a first way of using tw.macro
