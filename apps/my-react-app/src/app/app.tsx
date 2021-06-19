@@ -150,14 +150,14 @@ export function App() {
       <main>
         <h2>Nx + React + Tailwind Starter</h2>
         <p>
-          🚀 Awesome! You are running Nx with React and TailwindCSS. Look, I
-          created a simple button component for you.
+          <span role="img">🚀 </span>Awesome! You are running Nx with React and
+          TailwindCSS. Look, I created a simple button component for you.
         </p>
         <div className="flex justify-center my-6">
           <Button value="Foobar" />
         </div>
 
-        {/* First way of using tw.macro */}
+        {/* First way of using tw.macro *}
         <div tw="max-w-4xl mx-auto p-5 mt-5">
           <h1 tw="text-blue-500 text-4xl">
             Hello from tw.macro. This is a first way of using tw.macro
@@ -166,8 +166,8 @@ export function App() {
         {/* Second way of using tw.macro */}
         <Container>
           <BigHeading>
-            Once again hello from tw.macro. This is a second way of using
-            tw.macro
+            Netlify. Once again hello from tw.macro. This is a second way of
+            using tw.macro
           </BigHeading>
         </Container>
         <p>Now it's time to create your own components.</p>
