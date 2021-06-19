@@ -166,8 +166,8 @@ export function App() {
         {/* Second way of using tw.macro */}
         <Container>
           <BigHeading>
-            Also added Netlify Deployment. Once again hello from tw.macro. This
-            is a second way of using tw.macro
+            Once again hello from tw.macro. This is a second way of using
+            tw.macro
           </BigHeading>
         </Container>
         <p>Now it's time to create your own components.</p>
