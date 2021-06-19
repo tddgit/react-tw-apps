@@ -148,7 +148,7 @@ export function App() {
         <h1>Welcome to my-react-app!</h1>
       </header>
       <main>
-        <h2>Nx + React + Tailwind Starter</h2>
+        <h2>Nx + React + Tailwind Starter + Netlify Deployment</h2>
         <p>
           <span role="img">🚀 </span>Awesome! You are running Nx with React and
           TailwindCSS. Look, I created a simple button component for you.
