@@ -5,6 +5,7 @@ import tw from 'twin.macro';
 
 import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import Button from '../../../../libs/ui-components/src/lib/button/button';
 
 const Heading = tw.h1`text-blue-500 text-2xl p-2`;
@@ -142,7 +143,7 @@ export function App() {
    */
   return (
     <StyledApp>
-      <header className="flex justify-center items-center">
+      <header className="flex items-center justify-center">
         <Logo width="75" height="75" />
         <h1>Welcome to my-react-app!</h1>
       </header>
@@ -209,7 +210,7 @@ export function App() {
         <ul className="resources">
           <li className="col-span-2">
             <a
-              className="resource flex"
+              className="flex resource"
               href="https://connect.nrwl.io/app/courses/nx-workspaces/intro"
             >
               Nx video course
@@ -217,7 +218,7 @@ export function App() {
           </li>
           <li className="col-span-2">
             <a
-              className="resource flex"
+              className="flex resource"
               href="https://nx.dev/react/getting-started/what-is-nx"
             >
               Nx video tutorial
@@ -225,14 +226,14 @@ export function App() {
           </li>
           <li className="col-span-2">
             <a
-              className="resource flex"
+              className="flex resource"
               href="https://nx.dev/react/tutorial/01-create-application"
             >
               Interactive tutorial
             </a>
           </li>
           <li className="col-span-2">
-            <a className="resource flex" href="https://nx.app/">
+            <a className="flex resource" href="https://nx.app/">
               <svg
                 width="36"
                 height="36"
