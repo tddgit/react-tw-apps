@@ -11,7 +11,7 @@
           "builder": "@netlify-builder/deploy:deploy",
           "options": {
             "outputPath": "dist/apps/my-react-app",
-            "siteId": "3da39b22-faa1-4bab-b5e1-63f393734635"
+            "siteId": "da866c3c-6ec2-40cd-83a1-2bdd0ce8e435"
           }
         },
         "build": {
