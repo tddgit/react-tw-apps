@@ -7,6 +7,13 @@
       "projectType": "application",
       "schematics": {},
       "architect": {
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/apps/my-react-app",
+            "siteId": "3da39b22-faa1-4bab-b5e1-63f393734635"
+          }
+        },
         "build": {
           "builder": "@nrwl/web:build",
           "options": {
